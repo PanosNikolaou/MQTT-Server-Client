@@ -1,9 +1,7 @@
 import paho.mqtt.client as mqtt
 import time
 import json
-#import math
 import random
-#import numpy as np
 
 def on_publish(client, userdata, mid):
     print("mid: "+str(mid))
